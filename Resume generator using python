@@ -86,7 +86,7 @@ pdf.cell(200, 10, txt = "Skills:", ln = True, align = 'L')
 pdf.set_font("Arial", size = 12)
 pdf.cell(200, 10, txt = ", ".join(skills), ln = True, align = 'L')
 
-# Save the PDF
+#
 pdf.output("resume.pdf")
 
 print("Resume PDF saved as 'resume.pdf'")
